@@ -16,6 +16,12 @@ export default function Home() {
         <p className="text-center text-lg">
           Welcome to HomeCook ASMR. We are Currently under development
         </p>
+        <p className="text-center text-lg">
+          Stay tuned for our upcoming ASMR cooking videos!
+        </p>
+        <p className="text-center text-lg">
+            contact us at: info@homecookasmr.com
+        </p>
       </main>
 
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
