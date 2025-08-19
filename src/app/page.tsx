@@ -6,8 +6,8 @@ export default function Home() {
       
       <main className="flex flex-col gap-[32px] row-start-2 items-center">
         <Image 
-          src="/logo.png"
-          alt="KitchenMateBD Logo"
+          src="/logos.png"
+          alt="HomeCook ASMR Logo"
           width={150}
           height={150}
           className="rounded-full object-cover"
