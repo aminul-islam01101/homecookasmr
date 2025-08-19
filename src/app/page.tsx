@@ -1,3 +1,4 @@
+import { SocialIcons } from '@/components/social-icons';
 import Image from 'next/image';
 
 export default function Home() {
@@ -8,9 +9,9 @@ export default function Home() {
         <Image 
           src="/logos.png"
           alt="HomeCook ASMR Logo"
-          width={150}
-          height={150}
-          className="rounded-full object-cover"
+          width={250}
+          height={250}
+          className="rounded-full "
           priority
         />
         <p className="text-center text-lg">
@@ -20,8 +21,12 @@ export default function Home() {
           Stay tuned for our upcoming ASMR cooking videos!
         </p>
         <p className="text-center text-lg">
-            contact us at: info@homecookasmr.com
+            Contact us at: info@homecookasmr.com
         </p>
+        <div className="space-y-4">
+      
+            <SocialIcons size="lg" className="justify-center" />
+          </div>
       </main>
 
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
