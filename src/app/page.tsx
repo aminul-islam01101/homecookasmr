@@ -7,7 +7,7 @@ export default function Home() {
       
       <main className="flex flex-col gap-[32px] row-start-2 items-center">
         <Image 
-          src="/logos.png"
+          src="/logo.png"
           alt="HomeCook ASMR Logo"
           width={250}
           height={250}
