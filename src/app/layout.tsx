@@ -3,27 +3,27 @@ import './globals.css'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'HomeCookASMR',
-  description: 'ASMR Cooking by a Bangladeshi girl ',
+  title: 'HomeCook ASMR',
+  description: 'ASMR Cooking by a Bangladeshi 🇧🇩  girl 🧕 ',
   openGraph: {
-    title: 'HomeCookASMR',
-    description: 'ASMR Cooking by a Bangladeshi girl ',
+    title: 'HomeCook ASMR',
+    description: 'ASMR Cooking by a Bangladeshi 🇧🇩  girl 🧕 ',
     url: 'https://www.homecookasmr.com',
-    siteName: 'HomeCookASMR',
+    siteName: 'HomeCook ASMR',
     images: [
       {
         url: 'https://www.homecookasmr.com/logo.png',
         width: 1200,
         height: 630,
-        alt: 'HomeCookASMR - ASMR Cooking',
+        alt: 'HomeCookASMR Logo',
       },
     ],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'HomeCookASMR',
-    description: 'ASMR Cooking by a Bangladeshi girl',
+    title: 'HomeCook ASMR',
+    description:'ASMR Cooking by a Bangladeshi 🇧🇩  girl 🧕 ',
     images: ['https://www.homecookasmr.com/og-image.jpg'],
   },
 }
