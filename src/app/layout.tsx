@@ -4,10 +4,10 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'HomeCook ASMR',
-  description: 'ASMR Cooking by a Bangladeshi 🇧🇩  girl 🧕 ',
+  description: 'ASMR Cooking by a Bangladeshi 🇧🇩 girl 🧕',
   openGraph: {
     title: 'HomeCook ASMR',
-    description: 'ASMR Cooking by a Bangladeshi 🇧🇩  girl 🧕 ',
+    description: 'ASMR Cooking by a Bangladeshi 🇧🇩 girl 🧕',
     url: 'https://www.homecookasmr.com',
     siteName: 'HomeCook ASMR',
     images: [
@@ -23,8 +23,12 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'HomeCook ASMR',
-    description:'ASMR Cooking by a Bangladeshi 🇧🇩  girl 🧕 ',
+    description: 'ASMR Cooking by a Bangladeshi 🇧🇩 girl 🧕',
     images: ['https://www.homecookasmr.com/og-image.jpg'],
+  },
+  other: {
+    // Facebook domain verification
+    'facebook-domain-verification': 'lh814ap6qsivnkiaimif4tjk5jk7v9',
   },
 }
 
@@ -32,13 +36,17 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <head>
-        {/* Facebook Domain Verification */}
+        {/* ✅ Facebook Domain Verification */}
         <meta
           name="facebook-domain-verification"
           content="lh814ap6qsivnkiaimif4tjk5jk7v9"
         />
-        {/* Correct way to add fb:app_id */}
+
+        {/* ✅ Facebook App ID */}
         <meta property="fb:app_id" content="1276244177477800" />
+
+        {/* Extra safety: Canonical URL */}
+        <link rel="canonical" href="https://www.homecookasmr.com" />
       </head>
       <body>{children}</body>
     </html>
