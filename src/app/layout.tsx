@@ -26,10 +26,6 @@ export const metadata: Metadata = {
     description: 'ASMR Cooking by a Bangladeshi 🇧🇩 girl 🧕',
     images: ['https://www.homecookasmr.com/og-image.jpg'],
   },
-  other: {
-    // Facebook domain verification
-    'facebook-domain-verification': 'lh814ap6qsivnkiaimif4tjk5jk7v9',
-  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
