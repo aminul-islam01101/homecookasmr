@@ -1,6 +1,7 @@
 // app/layout.tsx
 import './globals.css'
 import type { Metadata } from 'next'
+import Script from 'next/script'
 
 export const metadata: Metadata = {
   title: 'HomeCook ASMR',
@@ -41,10 +42,29 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* ✅ Facebook App ID */}
         <meta property="fb:app_id" content="1276244177477800" />
 
-        {/* Extra safety: Canonical URL */}
+        {/* ✅ Canonical URL */}
         <link rel="canonical" href="https://www.homecookasmr.com" />
+
+        {/* ✅ Favicon */}
+        <link rel="icon" href="/favicon.ico" />
       </head>
-      <body>{children}</body>
+      <body>
+        {children}
+
+        {/* ✅ Google Analytics (GA4) */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-86HTMSPDCZ"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-86HTMSPDCZ');
+          `}
+        </Script>
+      </body>
     </html>
   )
 }
