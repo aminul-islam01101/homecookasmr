@@ -1,7 +1,11 @@
+import redirects from "@/lib/redirects";
 import type { NextConfig } from "next";
 
+
 const nextConfig: NextConfig = {
-  /* config options here */
+  async redirects() {
+    return redirects;
+  },
 };
 
 export default nextConfig;
