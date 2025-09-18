@@ -16,6 +16,11 @@ const redirects: Redirect[] = [
     destination: "https://youtube.com/shorts/y-kErFvL3ZY?si=aJzKXuO4xOORuYRp",
     permanent: false,
   },
+  {
+    source: "/amla-booster",
+    destination: "https://youtube.com/shorts/iRGkbdYp2vY?si=lWaleBXfPRf79a6w",
+    permanent: false,
+  },
 ];
 
 export default redirects;
