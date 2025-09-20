@@ -26,6 +26,11 @@ const redirects: Redirect[] = [
     destination: "https://youtube.com/shorts/MsiAPrios-U?si=FJM0IhMUYuGb82Nk",
     permanent: false,
   },
+  {
+    source: "/yt",
+    destination: "https://www.youtube.com/@HomeCookASMR",
+    permanent: false,
+  },
 ];
 
 export default redirects;
