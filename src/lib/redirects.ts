@@ -21,6 +21,11 @@ const redirects: Redirect[] = [
     destination: "https://youtube.com/shorts/iRGkbdYp2vY?si=lWaleBXfPRf79a6w",
     permanent: false,
   },
+  {
+    source: "/protein-ball",
+    destination: "https://youtube.com/shorts/MsiAPrios-U?si=FJM0IhMUYuGb82Nk",
+    permanent: false,
+  },
 ];
 
 export default redirects;
