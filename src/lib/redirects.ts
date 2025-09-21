@@ -27,6 +27,11 @@ const redirects: Redirect[] = [
     permanent: false,
   },
   {
+    source: "/y/beet-halwa",
+    destination: "https://youtube.com/shorts/KAQOEfmYNOY?si=-pf8rZcqKdodP0zR",
+    permanent: false,
+  },
+  {
     source: "/yt",
     destination: "https://www.youtube.com/@HomeCookASMR",
     permanent: false,
