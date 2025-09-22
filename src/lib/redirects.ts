@@ -32,6 +32,11 @@ const redirects: Redirect[] = [
     permanent: false,
   },
   {
+    source: "/y/kolija-khichuri",
+    destination: "https://youtu.be/gNMQYaf2c28?si=BPT2OKd2bJ18s0DB",
+    permanent: false,
+  },
+  {
     source: "/yt",
     destination: "https://www.youtube.com/@HomeCookASMR",
     permanent: false,
