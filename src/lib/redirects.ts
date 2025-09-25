@@ -37,6 +37,11 @@ const redirects: Redirect[] = [
     permanent: false,
   },
   {
+    source: "/y/chal-kumra",
+    destination: "https://youtube.com/shorts/a0AXTpLMYmI?si=jCT1rXXv-PUUOsjP",
+    permanent: false,
+  },
+  {
     source: "/yt",
     destination: "https://www.youtube.com/@HomeCookASMR",
     permanent: false,
